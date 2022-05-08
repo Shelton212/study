@@ -39,20 +39,6 @@
             transform: rotate(1turn);
         }
     }    
-
-    #car-mode{
-        width: 440px;
-        height: 180px;
-        background-image: url(./src/car.png);
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: absolute;
-    }
-
-    #car{
-        /* opacity: 0.5; */
-        /* position: absolute; */
-    }
 </style>
 <body>
     <!--svg标签可直接在html中使用-->
@@ -67,11 +53,12 @@
 
 
     <!-- svg的4种引入html的方式 -->
-    <object class="size" data="./src/demo01.svg"></object>
-    <embed class="size" src="./src/demo02.svg">
-    <iframe class="size" src="./src/demo03.svg" style="border: medium none;"></iframe>
-    <!-- <div id="car-mode"></div> -->
-    <img id="car" src="./src/demo04.svg">
+    <img class="size"  src="./src/demo01.svg">
+    <object class="size" data="./src/demo02.svg"></object>
+    <embed class="size" src="./src/demo03.svg">
+    <iframe class="size" src="./src/demo04.svg" style="border: medium none;"></iframe>
+    
+    <img class="size" src="./src/demo05.svg">
 
 
 </body>
