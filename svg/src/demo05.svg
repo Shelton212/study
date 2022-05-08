@@ -36,25 +36,20 @@
         
     </g>
 
-    <!-- C21 15.3,19 14 20 19
-                    L24.8 78
-                C22.8 70,50.8 9 51.4 87.5 -->
-
     <!-- points -->
-    <g>
-        <!-- 左侧 -->
-        <!-- <circle cx="22" cy="15" r="0.3" fill="green" />
+    <!-- <g>
+        <circle cx="22" cy="15" r="0.3" fill="green" />
         <circle cx="19.8" cy="18" r="0.3" fill="green" />
         <circle cx="24.5" cy="77" r="0.3" fill="green" />
-        <circle cx="26" cy="79.5" r="0.3" fill="green" /> -->
-        <!-- 中点 -->
-        <!-- <circle cx="51.4" cy="87.5" r="0.3" fill="green" /> -->
-        <!-- 右侧 -->
-        <!-- <circle cx="81" cy="15" r="0.3" fill="green" />
+        <circle cx="26" cy="79.5" r="0.3" fill="green" />
+
+        <circle cx="51.4" cy="87.5" r="0.3" fill="green" />
+
+        <circle cx="81" cy="15" r="0.3" fill="green" />
         <circle cx="83.2" cy="18" r="0.3" fill="green" />
         <circle cx="78.5" cy="77" r="0.3" fill="green" />
-        <circle cx="77" cy="79.5" r="0.3" fill="green" /> -->
-    </g>
+        <circle cx="77" cy="79.5" r="0.3" fill="green" />
+    </g> -->
             <!-- 内层 -->
     <!-- <g>
         <circle cx="31" cy="28" r="0.3" fill="green" />
