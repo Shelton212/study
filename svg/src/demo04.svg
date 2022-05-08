@@ -1,6 +1,6 @@
 <!-- path标签练习：car -->
 <svg xmlns="http://www.w3.org/2000/svg"
-    width="440px" height="180px"
+    width="100px" height="40px"
     viewBox="0 0 100 100">
 
     <!-- bezier curve -->
@@ -20,6 +20,7 @@
                 L152 68"
                 fill="transparent" stroke="tomato" stroke-width="4"/>
     </g>
+
 
     <!-- points -->
     <!-- <g>
