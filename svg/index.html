@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .size{
+        width: 100px;
+        height: 100px;
+    }
+
+    #svg-css{
+        background-color: palevioletred;
+    }
+    rect{
+        transform-origin: center;
+        transform-box: fill-box;
+        fill: white;
+        animation: run 1s infinite normal;
+    }
+
+    @keyframes run{
+        from{
+            fill: white;
+        }
+
+        50%{
+            fill: powderblue;
+            /* viewbox不起作用 */
+            width: 30px;
+            x:40;
+        }
+
+        to{
+            fill: white;
+            transform: rotate(1turn);
+        }
+    }    
+
+    #car-mode{
+        width: 440px;
+        height: 180px;
+        background-image: url(./src/car.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: absolute;
+    }
+
+    #car{
+        /* opacity: 0.5; */
+        /* position: absolute; */
+    }
+</style>
+<body>
+    <!--svg标签可直接在html中使用-->
+    <svg id="svg-css"
+        width="100px" height="100px" viewBox="0 0 100 100">
+        <text x="7" y="25" font-size="10" fill="white">
+            svg直接写在html中
+        </text>
+
+        <rect x="20" y="40" width="60" height="30"/>
+    </svg>
+
+
+    <!-- svg的4种引入html的方式 -->
+    <object class="size" data="./src/demo01.svg"></object>
+    <embed class="size" src="./src/demo02.svg">
+    <iframe class="size" src="./src/demo03.svg" style="border: medium none;"></iframe>
+    <!-- <div id="car-mode"></div> -->
+    <img id="car" src="./src/demo04.svg">
+
+
+</body>
+</html>

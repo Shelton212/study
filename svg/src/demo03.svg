@@ -1,0 +1,53 @@
+<!-- path标签练习：flower -->
+
+<svg xmlns="http://www.w3.org/2000/svg"
+    width="150" height="150" viewBox="0 0 100 100"
+    style="background-color: black">
+
+    <g>
+        <circle cx="50" cy="30" r="20"
+            stroke="brown" stroke-width="15"/>
+        <path d="M 22.5 30 
+                C 23.25 54,45 58.5 50 77.5 
+                C 53.9 59,75.1 53.5 77.5 30 
+                L 50 50"
+                fill="brown"/>
+
+        <path d="M 50 82.5
+                C 37 64,40 60 20 77.5
+                C 40 98,60 98 80 77.5
+                C 65 64,63 60 50 82.5"
+                fill="brown"/>
+    </g>
+
+    <!-- points -->
+    <g>
+        <!-- left -->
+        <!-- <circle cx="22.5" cy="40" r="1" fill="green"/> -->
+        <!-- right -->
+        <!-- <circle cx="77.5" cy="40" r="1" fill="green"/> -->
+        <!-- center -->
+        <!-- <circle cx="50" cy="60" r="1" fill="green"/> -->
+        <!-- down -->
+        <!-- <circle cx="50" cy="87.5" r="1" fill="green"/> -->
+    </g>
+
+    <!-- points -->
+    <g>
+        <!-- top -->
+        <!-- <circle cx="50" cy="62.5" r="1" fill="green"/> -->
+        <!-- center -->
+        <!-- <circle cx="50" cy="82.5" r="1" fill="green"/> -->
+        <!-- left -->
+        <!-- <circle cx="30" cy="67.5" r="1" fill="blue"/> -->
+        <!-- <circle cx="20" cy="77.5" r="1" fill="green"/> -->
+        <!-- <circle cx="30" cy="87.5" r="1" fill="blue"/> -->
+        <!-- right -->
+        <!-- <circle cx="70" cy="67.5" r="1" fill="blue"/> -->
+        <!-- <circle cx="80" cy="77.5" r="1" fill="green"/> -->
+        <!-- <circle cx="70" cy="87.5" r="1" fill="blue"/> -->
+        <!-- bottom -->
+        <!-- <circle cx="50" cy="92.5" r="1" fill="green"/> -->
+    </g>
+
+</svg>

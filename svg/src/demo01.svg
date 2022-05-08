@@ -1,0 +1,47 @@
+<!-- 基本图形、文字标签 -->
+
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="200px" height="200px"
+     viewBox="0 0 100 100"
+     style="background-color: brown">
+
+    <!-- 基本图形 -->
+    <g>
+        <!-- 圆形 -->
+        <circle cx="50" cy="50" r="49"
+                fill="pink"
+                stroke="black" stroke-width="1"/>
+
+        <!-- 矩形 -->
+        <rect x="16" y="16" width="68" height="68"
+              fill="tomato"
+              stroke="black" stroke-width="0.5"/>
+
+        <!-- 椭圆 -->
+        <ellipse rx="15" ry="5" cx="35" cy="55"/>
+
+        <!-- 直线 -->
+        <line x1="55" x2="80" y1="55" y2="55" 
+            stroke="brown"/>
+        
+        <!-- 折线 -->
+        <polygon points="25 65,35 65,
+                        35 70,45,70
+                        45,80,25,80"
+            stroke="green" stroke-width="2" fill="yellowgreen"/>
+    </g>
+
+    <!-- 文字 -->
+    <g>
+        <text x="32" y="30"
+              fill="white"
+              font-size="10px" font-weight="bolder">
+            svg标签
+        </text>
+        <text x="40" y="44"
+              fill="white"
+              font-size="10px" font-weight="bolder">
+            展示
+        </text>
+    </g>
+</svg>

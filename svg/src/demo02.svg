@@ -1,0 +1,42 @@
+<!-- path标签 -->
+
+<svg xmlns="http://www.w3.org/2000/svg"
+    width="150" height="150" viewBox="0 0 100 100">
+
+    <g style="transform-box: fill-box;transform-origin: center;">
+        <!--贝塞尔曲线  -->
+        <path d="M 50 40
+                C 22.5 11.8,5 66.3 50 80
+                C 95 66.3,77.5 11.8 50 40"
+                stroke="tomato" stroke-width="1"
+                fill="brown"/>
+        <!-- 轴对称：95.66 = 50 x 2 -22.5 -->
+
+        <!-- 边框补充 -->
+        <rect width="1" height="1" 
+            fill="tomato"
+            x="63.13" y="-7.58"
+            transform="rotate(45)"/>
+        
+        <!-- 动画 -->
+        <!-- 过程也可用form to -->
+        <animateTransform attributeName="transform"
+            type="scale"
+            keyTimes="0;0.5;1" values="1;1.2;1"
+            dur="0.7s"
+            repeatCount="indefinite">
+        </animateTransform>
+    </g>
+
+    <!-- points -->
+    <!-- <g font-size="3"> -->
+        <!-- top -->
+        <!-- <text x="50" y="40" >(50,40)</text> -->
+        <!-- <circle cx="50" cy="40" r="1" fill="brown" /> -->
+
+        <!-- down -->
+        <!-- <text x="50" y="80" >(50,80)</text> -->
+        <!-- <circle cx="50" cy="80" r="1" fill="brown" /> -->
+    <!-- </g> -->
+
+</svg>
