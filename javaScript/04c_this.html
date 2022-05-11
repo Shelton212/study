@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+    window.onload = function(){
+
+        function Person(color){
+            console.log(this);
+            
+            this.color = color;
+            this.getColor = function(){
+                console.log(this)
+                this.color = color;
+            };
+            this.setColor = function(color){
+                console.log(this)
+                this.color = color;
+            }
+        }
+
+        Person("red");//window（函数方式调用）
+
+        var p = new Person("yello")//p（构造器方式调用）
+        p.getColor();//p（方法——属性名方式调用）
+
+        var obj = {};
+        p.setColor.call(obj,"black");//obj（使用call指定对象）
+    }
+</script>
+<body>
+    
+</body>
+</html>
