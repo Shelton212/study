@@ -6,7 +6,6 @@ person1.gender = "男"
 
 console.log(person1);
 
-
 function Person(){}
 var person2 = new Person()
 person2.name = "小六";
