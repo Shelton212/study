@@ -1453,3 +1453,7 @@ javaScript/base/src/js/tools.js
 javaScript/base/review.html
 javaScript/base/test.html
 javaScript/base/json兼容ie7/json2.js
+svg/example/js.svg
+favicon.ico
+test.html
+test.js
