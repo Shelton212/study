@@ -21,7 +21,7 @@ var c = new A();
 console.log(c.__proto__.constructor)
 console.log(b.__proto__.constructor)
 
-console.log("=======================")
+console.log("======================")
 
 var F = function(){};
 

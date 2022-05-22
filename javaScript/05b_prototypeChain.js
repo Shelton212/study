@@ -15,7 +15,6 @@ console.log(font.__proto__);//{ printName: [Function (anonymous)] }
 
 font.printName();//宋体
 
-
 console.log(font instanceof MyFont);//true
 console.log(font instanceof Object);//true
 console.log(font instanceof Function);//false
